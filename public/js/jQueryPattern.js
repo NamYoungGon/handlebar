@@ -18,6 +18,8 @@
 	nyg.prototype.init = function (query) {
 		this.name = "nyg";
         	this.version = "1.0.0";
+		
+		return document.querySelectorAll(`${query}`);
 	};
 
 	nyg.prototype.init.prototype = nyg.prototype;
