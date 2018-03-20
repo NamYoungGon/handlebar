@@ -1,16 +1,10 @@
 (function (jq) {
 
 	var nyg = function (query) {
-
-		var count = 0;
-
 		return function () {
-
 			var tmp = new nyg.prototype.init(query);
 			return tmp;
-
 		}();
-
 	}
 
 	nyg.a = function () {
@@ -23,7 +17,7 @@
 
 	nyg.prototype.init = function (query) {
 		this.name = "nyg";
-        this.version = "1.0.0";
+        	this.version = "1.0.0";
 	};
 
 	nyg.prototype.init.prototype = nyg.prototype;
